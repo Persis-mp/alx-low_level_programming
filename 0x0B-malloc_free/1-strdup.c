@@ -7,6 +7,7 @@
  *@str: char str
  *Return: 0
  */
+int main(void);
 char *_strdup(char *str)
 {
 	char *a;
@@ -17,7 +18,7 @@ char *_strdup(char *str)
 	i = 0;
 	while (str[i] != '\0')
 		i++;
-	a = = malloc(sizeof(char) * (i + 1));
+	a = malloc(sizeof(char) * (i + 1));
 	if (a == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
