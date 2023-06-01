@@ -1,1 +1,1 @@
-0-strcat.c
+2-strncpy.c
